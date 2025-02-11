@@ -22,7 +22,7 @@ function getBotResponse(input) {
     }else if (input.toLowerCase() == "how many courses does smit have") {
         return "According to available information, Saylani Mass IT Training (SMIT) offers a wide range of IT courses including web development, mobile app development, CCNA, graphic designing, and computer-based accounting, but the exact number of individual courses is not readily available";
 
-    }else if (input.toLowerCase() == "how can i submit the form" || "what is the process of submit the form") {
+    }else if (input.toLowerCase() == "how can i submit the form") {
         return "go to the saylani welfare form and fill the form and then submit it then download your id card and print it out then attest the id card from any of the saylani branch";
 
     }else if (input.toLowerCase() == "how many branches of saylani in karachi") {

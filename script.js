@@ -22,7 +22,7 @@ function getBotResponse(input) {
         if (input.toLowerCase() === "how are you") {
             return "I'm just a bot, but I'm feeling great! How about you?";      
         }
-         else if (input.toLowerCase() === "what's your name") {
+         else if (input.toLowerCase() === "what's your name" || input.toLowerCase() === "who are you") {
             return "I'm your friendly chatbot, here to help you! 😊";
         }
         else if (input.toLowerCase() === "fine") {
